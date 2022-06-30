@@ -1,0 +1,442 @@
+/* create variables for models. these are the style props that'll be matched with a model prop for the component */
+/* 
+    adutAketch{
+        Head & Title: 'border: rgb(255, 238, 0)'
+        body: 'border: rgb(255, 238, 0)' 
+        background-filter: rgba(114, 129, 59, 0.644)
+        info: rgba(110, 110, 9, 0.89)
+        leftTableforpics:rgba(255, 238, 0, 0.432)
+    }
+    AdonisBosso{
+        Head & Title: 'border: rgb(158, 117, 56)'
+        body: 'border: rgb(158, 117, 56)' 
+        background-filter: rgba(87, 105, 20, 0.644)
+        info: rgba(88, 77, 53, 0.89)
+        leftTableforpics:rgba(189, 118, 52, 0.432)
+    }
+    BroderickHunter{
+        --Theme:rgba(56, 41, 22);
+    --background-filter: rgba(56, 41, 22, 0.644);
+    --info : rgba(63, 48, 29, 0.89);
+    --left :  rgba(130, 180, 209, 0.432);
+    }
+
+    CaraDelevigne{
+        --Theme:rgb(104, 102, 69);
+        --background-filter: rgba(45, 46, 6, 0.644);
+        --info : rgba(63, 48, 29, 0.89);
+        --left :  rgba(130, 180, 209, 0.432);
+    }
+
+    DiandraForrest{
+        --Theme:rgb(224, 219, 122);
+        --background-filter: rgba(158, 160, 49, 0.644);
+        --info : rgba(197, 199, 70, 0.89);
+        --left :  rgba(100, 60, 21, 0.432);
+    }
+
+    Elisa-mitrofan{
+        --Theme:rgb(114, 60, 39);
+        --background-filter: rgba(139, 73, 47, 0.644);
+        --info : rgba(124, 37, 2, 0.89);
+        --left :  rgba(14, 7, 1, 0.432);
+    }
+
+    GigiHadid{
+        --Theme:rgb(63, 109, 128);
+        --background-filter: rgba(73, 80, 87, 0.644);
+        --info : rgba(34, 53, 65, 0.89);
+        --left :  rgba(8, 80, 122, 0.432);
+    }
+
+    JillianMercado{
+        --Theme:rgb(194, 100, 100);
+        --background-filter: rgba(42, 51, 68, 0.644);
+        --info : rgba(179, 127, 127, 0.89);
+        --left :  rgba(173, 125, 119, 0.432);
+    }
+
+    JourdanDunn{
+    --Theme:rgb(192, 45, 45);
+    --background-filter: rgba(71, 26, 15, 0.644);
+    --info : rgba(153, 56, 56, 0.89);
+    --left :  rgba(59, 40, 17, 0.432);
+    }
+    LeaomiAnderson{
+    --Theme:rgb(0, 0, 0);
+    --background-filter: rgba(51, 50, 49, 0.644);
+    --info : rgba(18, 18, 19, 0.89);
+    --left :  rgba(160, 164, 179, 0.651);
+    }
+    LineisyMontero{
+    --Theme:rgb(3, 3, 0);
+    --background-filter: rgba(40, 41, 37, 0.644);
+    --info : rgba(75, 72, 67, 0.89);
+    --left :  rgba(61, 166, 172, 0.651);
+    }
+    LiuWen{
+    --Theme:rgb(15, 35, 61);
+    --background-filter: rgba(15, 34, 44, 0.733);
+    --info : rgba(201, 203, 216, 0.89);
+    --left :  rgba(2, 5, 27, 0.692);    
+    }
+
+    LukaSabbat{
+    --Theme:rgb(56, 24, 5);
+    --background-filter: rgba(82, 30, 7, 0.733);
+    --info : rgba(158, 80, 35, 0.89);
+    --left :  rgba(100, 63, 20, 0.692); 
+    }
+    SlickWoods{
+    --Theme:rgb(56, 24, 5);
+    --background-filter: rgba(61, 46, 46, 0.733);
+    --info : rgba(119, 16, 16, 0.89);
+    --left :  rgba(197, 174, 147, 0.692);
+    }
+
+    VictorNdigwe{
+    --Theme:rgb(121, 172, 80);
+    --background-filter: rgba(47, 58, 38, 0.733);
+    --info : rgba(110, 129, 90, 0.89);
+    --left :  rgba(74, 95, 47, 0.692);
+    }
+ */
+
+:root{
+    --Theme:rgb(63, 109, 128);
+    --background-filter: rgba(73, 80, 87, 0.644);
+    --info : rgba(34, 53, 65, 0.89);
+    --left :  rgba(8, 80, 122, 0.432);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------THIRD COMPONENT STYLES ----------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: black;
+    height: 200vh;
+}
+
+.Head{
+    background-image: url(./Victor-Ndigwe/Headshot.jpg);
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    left: 10%;
+    top:50%;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid var(--Theme);
+    z-index: 10;
+}
+.body{
+    position: absolute;
+    background: url(./Victor-Ndigwe/body.jpg);
+    width: 350px;
+    height: 550px;
+    background-size: cover;
+    top: 5%;
+    left: 30%;
+    border: 8px solid var(--Theme);
+    z-index: 5;
+}
+.sec{
+    height: 100vh;
+    width: 100vw;
+}
+.bg{
+    position: relative;
+    background-image:  url(./Victor-Ndigwe/vogue.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    filter:blur(4px);    
+}
+
+.layer{
+    position: absolute;
+    background-color: var(--background-filter);
+    width: 100%;
+    height: 100%;
+}
+.info{
+    text-align: right;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: var(--info);
+    top:10%;
+    left: 70%;
+    z-index: 1;
+    border-radius: 5px;
+    color: rgb(160, 146, 146);
+
+}
+.left{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: var(--left);
+    width: 50vw;
+    height: 100vh;
+
+}
+.right{
+    background-color: transparent;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    text-align: center;
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.right h2{
+
+    font-size:50px;
+}
+.right button{
+    width: 40%;
+} */
+
+
+
+/* -------------------------------------------SECOND COMPONENT ----------------------------------------- */
+
+
+
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: black;
+    height: 200vh;
+}
+
+.Head{
+    background-image: url(./Diandra\ forrest/Headshot.jpg);
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    left: 0%;
+    top:60%;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid var(--Theme);
+    z-index: 10;
+}
+.body{
+    position: absolute;
+    background: url(./Diandra\ forrest/body.jpg);
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    top: 15%;
+    left: 30%;
+    border: 8px solid var(--Theme);
+    z-index: 5;
+}
+.sec{
+    height: 100vh;
+    width: 100vw;
+}
+.bg{
+    position: relative;
+    background-image:  url(./Diandra\ forrest/vogue.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    filter:blur(4px);    
+}
+
+.layer{
+    position: absolute;
+    background-color: var(--background-filter);
+    width: 100%;
+    height: 100%;
+}
+.info{
+    text-align: right;
+    position: absolute;
+    width: 474px;
+    height: 95%;
+    background-color: var(--info);
+    top:2%;
+    left: 5%;
+    z-index: 1;
+    border-radius: 10px;
+    color: rgb(160, 146, 146);
+    border: 5px solid var(--Theme);
+
+}
+.left{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: var(--left);
+    width: 50vw;
+    height: 100vh;
+}
+.right{
+    background-color: transparent;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    text-align: center;
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.right h2{
+    font-size:50px;
+}
+.right button{
+    width: 40%;
+}
+ */
+
+
+
+/* --------------------------------------------- First Component ---------------------------------------------- */
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: black;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 200vh;
+}
+
+.Head{
+    background-image: url(./Gigi-hadid/Headshot.jpg);
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    left: 5%;
+    top:15%;
+    background-position: center;
+    background-size: cover;
+    border: 5px solid var(--Theme);
+    z-index: 10;
+}
+.body{
+    position: absolute;
+    background: url(./Gigi-hadid/body.jpg);
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    top: 10%;
+    left: 20%;
+    border: 8px solid var(--Theme);
+    z-index: 5;
+}
+.sec{
+    height: 100vh;
+    width: 100vw;
+}
+.bg{
+    position: relative;
+    background-image:  url(./Gigi-hadid/vogue.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    filter:blur(4px);    
+}
+
+.layer{
+    position: absolute;
+    background-color: var(--background-filter);
+    width: 100%;
+    height: 100%;
+}
+.info{
+    text-align: right;
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: var(--info);
+    top:40%;
+    left: 55%;
+    z-index: 1;
+    border-radius: 10px;
+    color: rgb(160, 146, 146);
+    border: 1px solid var(--Theme);
+
+}
+.left{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    background-color: var(--left);
+    width: 50vw;
+    height: 100vh;
+    /* border-radius: 30px; */
+}
+.right{
+    background-color: transparent;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    text-align: center;
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+.right h2{
+    /* color: var(--Theme); */
+    font-size:50px;
+}
+.right button{
+    width: 40%;
+}

@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    height: 200vh;
+}
+
+.stickyBox{
+    margin: 10px;
+    position: sticky;
+    top: 40px;
+
+    background-color: rgb(97, 14, 14);
+    color: white;
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+}
